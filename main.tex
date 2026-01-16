@@ -1,0 +1,53 @@
+
+\documentclass[12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{graphicx}
+\usepackage[backend=biber, style=authoryear]{biblatex}
+
+% This part creates your reference file automatically
+\begin{filecontents}{references.bib}
+@book{orwell1949,
+    author = {Orwell, George},
+    title = {1984},
+    year = {1949},
+    publisher = {Secker & Warburg}
+}
+@article{flores2016,
+    author = {Flores, Nelson and Rosa, Jonathan},
+    title = {Undoing Appropriateness: Raciolinguistic Ideologies},
+    journal = {Harvard Educational Review},
+    year = {2016}
+}
+\end{filecontents}
+
+\addbibresource{references.bib}
+
+\begin{document}
+
+\begin{titlepage}
+    \centering
+    \vspace*{2cm}
+    {\huge\bfseries Literary Analysis: Language and Power in 1984 \par}
+    \vspace{1.5cm}
+    {\large\bfseries Name: [YOUR NAME] \par}
+    \vspace{0.5cm}
+    {\large Specialization: [YOUR SPECIALIZATION] \par}
+    \vfill
+    \today
+\end{titlepage}
+
+\section*{Introduction}
+George Orwell’s novel 1984 explores the intersection of language, power, and social control. In the extract, Syme explains "Newspeak," a language designed to limit human thought. By destroying words, the Party aims to make thoughtcrime impossible. This analysis examines how linguistic engineering serves as a tool for political domination.
+
+\section*{Development: Linguistic Control}
+The core objective of Newspeak is the diminution of the range of thought. As noted in the text, the aim is to narrow thought to prevent dissent \parencite{orwell1949}. By removing words like "freedom," the state removes the concept from the mind. This aligns with theories on how language is used as a tool of ideological power \parencite{flores2016}.
+
+\section*{Conclusion}
+Orwell demonstrates that when language is manipulated, the power to resist is lost. The death of expressive language leads to the death of identity. This serves as a warning about the importance of language maintenance against authoritarian pressure.
+
+\printbibliography 
+\end{document}
+
+
+
